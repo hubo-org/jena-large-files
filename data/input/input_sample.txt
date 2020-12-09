@@ -1,0 +1,56 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix neovoc: <neo4j://vocabulary#> .
+@prefix neoind: <neo4j://individuals#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns1: <dbo> .
+@prefix hp: <urn:absolute://harbourpolitica/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hps: <urn:absolute://harbourpolitica/ontology/StoryUniverse/> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix wgs84pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix d0: <http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix cidoccrm: <http://purl.org/NET/cidoc-crm/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+
+neoind:1945 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/953d38d5-14ab-46dc-9145-1b1d087dcc53";
+  hp:hpIdn "CAN1001510";
+  hp:hasLiabilities2014 "0"^^xsd:long;
+  hp:identifier "953d38d5-14ab-46dc-9145-1b1d087dcc53";
+  hp:sex "M";
+  hp:name "Rambriksha";
+  hp:hasCriminalcases2014 "0"^^xsd:long;
+  hp:hasAssets2009 "83000"^^xsd:long;
+  hp:edbId "10039"^^xsd:long;
+  hp:hasLiabilities2009 "0"^^xsd:long;
+  hp:hasCriminalcases2009 "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:age "44"^^xsd:long;
+  hp:hasAssets2014 "1024540"^^xsd:long .
+
+neoind:1946 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:identifier "6f3672f2-aee3-436e-b23c-ef2f68e7dc91";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/6f3672f2-aee3-436e-b23c-ef2f68e7dc91";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hasAssets2014 "4090000"^^xsd:long;
+  hp:name "Ramchandra Saras";
+  hp:hasLiabilities2014 "610000"^^xsd:long;
+  hp:hasCriminalcases2014 "0"^^xsd:long;
+  hp:age "52"^^xsd:long;
+  hp:hpIdn "CAN1001511";
+  hp:sex "M";
+  hp:latestElectionResult "LOST";
+  hp:edbId "10040"^^xsd:long .
