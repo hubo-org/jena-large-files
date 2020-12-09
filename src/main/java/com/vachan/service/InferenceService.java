@@ -56,7 +56,7 @@ public class InferenceService {
 		return ont_model;
 	}
 
-	public void loadSingle() throws Exception {
+	public long loadSingle() throws Exception {
 		long start = System.currentTimeMillis();
 
 		String resource = path + input_path + "input_sample.txt";
@@ -75,10 +75,12 @@ public class InferenceService {
 		os.close();
 
 		long end = System.currentTimeMillis();
-		log.info("Time taken:" + (end - start) + "ms");
+		long time_taken = end - start;
+		log.info("Time taken:" + time_taken + "ms");
+		return time_taken;
 	}
 
-	public void loadInputFile(String fileName) throws Exception {
+	public long loadInputFile(String fileName) throws Exception {
 		long start = System.currentTimeMillis();
 
 		String resource = path + input_path + fileName;
@@ -88,7 +90,7 @@ public class InferenceService {
 		data.read(resource, "TURTLE");
 		InfModel inf = ModelFactory.createInfModel(reasoner, ontModel, data);
 		log.info("Created Inferred Model");
-		String out_file = path + output_path + "jena_output" + fileName;
+		String out_file = path + output_path + "jena_output_" + fileName;
 		OutputStream os = new FileOutputStream(out_file);
 
 		generateInferredModel(data, inf, os);
@@ -97,10 +99,12 @@ public class InferenceService {
 		os.close();
 
 		long end = System.currentTimeMillis();
-		log.info("Time taken:" + (end - start) + "ms");
+		long time_taken = end - start;
+		log.info("Time taken:" + time_taken + "ms");
+		return time_taken;
 	}
 
-	public void loadFullFile() throws Exception {
+	public long loadFullFile() throws Exception {
 		long start = System.currentTimeMillis();
 
 		String resource = path + input_path + "input_full_data.txt";
@@ -119,7 +123,9 @@ public class InferenceService {
 		os.close();
 
 		long end = System.currentTimeMillis();
-		log.info("Time taken:" + (end - start) + "ms");
+		long time_taken = end - start;
+		log.info("Time taken:" + time_taken + "ms");
+		return time_taken;
 	}
 
 	private void generateInferredModel(Model data, InfModel inf, OutputStream os) {

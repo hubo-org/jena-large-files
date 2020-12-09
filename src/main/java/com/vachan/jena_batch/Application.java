@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({ "com.vachan.*" })
+@ComponentScan(basePackages={"com.vachan.service","com.vachan.controller"})
 public class Application {
 
 	public static void main(String[] args) {
