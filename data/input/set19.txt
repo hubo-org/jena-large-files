@@ -1,0 +1,1143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix neovoc: <neo4j://vocabulary#> .
+@prefix neoind: <neo4j://individuals#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns1: <dbo> .
+@prefix hp: <urn:absolute://harbourpolitica/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hps: <urn:absolute://harbourpolitica/ontology/StoryUniverse/> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix wgs84pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix d0: <http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix cidoccrm: <http://purl.org/NET/cidoc-crm/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+
+
+neoind:69167 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:hasCurrentPosition "EX-MP";
+  hp:hpIdn "CAN1139673";
+  hp:name "Gokulananda Mahanty";
+  hp:identifier "2ea32ef4-3fdc-3cdb-504e-be3d524e6415";
+  hp:sex "M";
+  hp:latestElectionResult "WON";
+  hp:edbId "108766"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/2ea32ef4-3fdc-3cdb-504e-be3d524e6415";
+  hp:age "0"^^xsd:long .
+
+neoind:69168 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/363147a0-42e0-2a7c-1d28-f4f6709f642f";
+  hp:identifier "363147a0-42e0-2a7c-1d28-f4f6709f642f";
+  hp:hpIdn "CAN1139674";
+  hp:sex "M";
+  hp:name "Rabindra Mohan Das";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108767"^^xsd:long .
+
+neoind:69169 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:hpIdn "CAN1139676";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:identifier "f34a986b-1a79-e1bc-e71d-4bfaca1dcf3b";
+  hp:name "Raja Purna Chandra Deo Bhanj";
+  hp:latestElectionResult "WON";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f34a986b-1a79-e1bc-e71d-4bfaca1dcf3b";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108768"^^xsd:long .
+
+neoind:69170 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:name "Mahanand Hrushikesh";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/5abed4d0-ce02-1fe2-2d2e-6567c40f39af";
+  hp:hpIdn "CAN1139677";
+  hp:identifier "5abed4d0-ce02-1fe2-2d2e-6567c40f39af";
+  hp:latestElectionResult "WON";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108769"^^xsd:long .
+
+neoind:69171 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:sex "M";
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Nityanand_Kanungo";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/5631e53d-d421-b0c5-ce37-be9d38b659fe";
+  hp:wikidataId "http://www.wikidata.org/entity/Q7041597";
+  hp:hpIdn "CAN1139680";
+  hp:edbId "108770"^^xsd:long;
+  hp:name "Nityanand Kanungo";
+  hp:hasCurrentPosition "EX-MP";
+  hp:latestElectionResult "WON";
+  hp:identifier "5631e53d-d421-b0c5-ce37-be9d38b659fe" .
+
+neoind:69172 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Bhausaheb Raosaheb Mahagaonkar";
+  hp:identifier "4e6bfba7-7680-5319-37f4-71e676f9ecb1";
+  hp:edbId "108771"^^xsd:long;
+  hp:hpIdn "CAN1139554";
+  hp:sex "M";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/4e6bfba7-7680-5319-37f4-71e676f9ecb1";
+  hp:age "0"^^xsd:long .
+
+neoind:69173 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:identifier "e7ed327e-4b4e-48e1-1906-4ab4aec5fad7";
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Vithal_Balkrishna_Gandhi";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/e7ed327e-4b4e-48e1-1906-4ab4aec5fad7";
+  hp:latestElectionResult "WON";
+  hp:name "Vithal Balkrishna Gandhi";
+  hp:edbId "108772"^^xsd:long;
+  hp:hasCurrentPosition "EX-MP";
+  hp:hpIdn "CAN1139558";
+  hp:wikidataId "http://www.wikidata.org/entity/Q16006564" .
+
+neoind:69174 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:hpIdn "CAN1139567";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Gopal Kaluji Manay";
+  hp:sex "M";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108773"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/be06dc9d-191a-7b84-18fe-6c1de3befc8e";
+  hp:identifier "be06dc9d-191a-7b84-18fe-6c1de3befc8e";
+  hp:age "0"^^xsd:long .
+
+neoind:69175 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:identifier "8d8791be-fecb-3675-d31b-74fd4d9c983a";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:name "Udharerao Saheb Rao";
+  hp:latestElectionResult "LOST";
+  hp:hpIdn "CAN1139584";
+  hp:edbId "108774"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/8d8791be-fecb-3675-d31b-74fd4d9c983a";
+  hp:age "0"^^xsd:long .
+
+neoind:69176 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:edbId "108775"^^xsd:long;
+  hp:identifier "265cedf6-9bd2-9bd8-543b-8f3e561903b7";
+  hp:latestElectionResult "WON";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:name "Kisan Mahadeo Veer";
+  hp:hpIdn "CAN1139597";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/265cedf6-9bd2-9bd8-543b-8f3e561903b7";
+  hp:age "0"^^xsd:long .
+
+neoind:69177 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:edbId "108776"^^xsd:long;
+  hp:identifier "1bc92a6d-795e-9de4-b9d2-8371f0c8a3b2";
+  hp:name "Babasaheb Jagdeorao Shinde";
+  hp:hpIdn "CAN1139600";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/1bc92a6d-795e-9de4-b9d2-8371f0c8a3b2";
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long .
+
+neoind:69178 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139612";
+  hp:name "Pandurnag Nagorao Wasnik";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "a9b68ea7-ab98-5b85-4f8e-48e7e29d0ca8";
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:edbId "108777"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/a9b68ea7-ab98-5b85-4f8e-48e7e29d0ca8" .
+
+neoind:69179 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139620";
+  hp:name "Vaman Dinkar Sathaye";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/80ec4e4e-2069-648c-59a2-6b7dcb86f686";
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "80ec4e4e-2069-648c-59a2-6b7dcb86f686";
+  hp:edbId "108778"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST" .
+
+neoind:69180 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:identifier "517f1280-f861-3c2d-2fe8-faf96a6d475e";
+  hp:hpIdn "CAN1139653";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/517f1280-f861-3c2d-2fe8-faf96a6d475e";
+  hp:latestElectionResult "LOST";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:name "Mangla Nand";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108779"^^xsd:long .
+
+neoind:69181 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:latestElectionResult "LOST";
+  hp:edbId "108780"^^xsd:long;
+  hp:hpIdn "CAN1139660";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/6d0c231d-98f3-804b-4a3c-963d88c6b60d";
+  hp:identifier "6d0c231d-98f3-804b-4a3c-963d88c6b60d";
+  hp:name "Uttam Singh Arora";
+  hp:age "0"^^xsd:long .
+
+neoind:69182 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:edbId "108781"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/d0471b4c-bc26-f976-41fd-5f5af8ba2c74";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139663";
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:identifier "d0471b4c-bc26-f976-41fd-5f5af8ba2c74";
+  hp:name "Gopal Krishan" .
+
+neoind:69183 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "1fc8b6b1-df47-f6a0-3974-8c6a47a309b6";
+  hp:sex "M";
+  hp:hpIdn "CAN1139665";
+  hp:name "Shiv Narain";
+  hp:edbId "108782"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/1fc8b6b1-df47-f6a0-3974-8c6a47a309b6";
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long .
+
+neoind:69184 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "fbc79a87-7e62-7460-c16d-59d0c1e081df";
+  hp:name "Dori Lal";
+  hp:edbId "108783"^^xsd:long;
+  hp:sex "M";
+  hp:hpIdn "CAN1139666";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/fbc79a87-7e62-7460-c16d-59d0c1e081df";
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long .
+
+neoind:69185 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "aeec2f20-d734-b6ae-c965-f1df15c6d8d9";
+  hp:edbId "108784"^^xsd:long;
+  hp:name "Lakhi Ram";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139669";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/aeec2f20-d734-b6ae-c965-f1df15c6d8d9" .
+
+neoind:69186 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "457b959e-e832-1fbc-7259-2eecdb76ae52";
+  hp:hpIdn "CAN1139672";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108785"^^xsd:long;
+  hp:name "Dondapani Das";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/457b959e-e832-1fbc-7259-2eecdb76ae52" .
+
+neoind:69187 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:name "Rajkishore Mohanty";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f5e53253-805f-f254-ba75-b3a7a86fc656";
+  hp:hpIdn "CAN1139675";
+  hp:edbId "108786"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "f5e53253-805f-f254-ba75-b3a7a86fc656";
+  hp:latestElectionResult "LOST" .
+
+neoind:69188 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:hpIdn "CAN1139678";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/5d37d6dc-b865-7842-fd0f-4b08c5f921f6";
+  hp:name "Nag Sundarmani";
+  hp:identifier "5d37d6dc-b865-7842-fd0f-4b08c5f921f6";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:edbId "108787"^^xsd:long;
+  hp:latestElectionResult "LOST" .
+
+neoind:69189 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:edbId "108788"^^xsd:long;
+  hp:name "Nishamani Khuntia";
+  hp:age "0"^^xsd:long;
+  hp:identifier "cf10cfb2-d152-ae7a-3930-c8e4d9e69cbe";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/cf10cfb2-d152-ae7a-3930-c8e4d9e69cbe";
+  hp:hpIdn "CAN1139681";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:latestElectionResult "LOST" .
+
+neoind:69190 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:hpIdn "CAN1139684";
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/a12a3bfb-d235-5ce1-9507-6e5d27d958fb";
+  hp:identifier "a12a3bfb-d235-5ce1-9507-6e5d27d958fb";
+  hp:latestElectionResult "LOST";
+  hp:name "Raja Sankar Pratap Singh Deb Mahindra Bahadur";
+  hp:edbId "108789"^^xsd:long;
+  hp:age "0"^^xsd:long .
+
+neoind:69191 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139687";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/8a5e2051-1352-7f75-abf0-12dba78bdf67";
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Surendra Mahanty";
+  hp:edbId "108790"^^xsd:long;
+  hp:identifier "8a5e2051-1352-7f75-abf0-12dba78bdf67";
+  hp:age "0"^^xsd:long .
+
+neoind:69192 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:hasCurrentPosition "EX-MP";
+  hp:edbId "108791"^^xsd:long;
+  hp:name "Maheswar Naik";
+  hp:identifier "8a9cfd7f-b803-9c27-edca-5d2805e1adfa";
+  hp:sex "M";
+  hp:hpIdn "CAN1139690";
+  hp:latestElectionResult "WON";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/8a9cfd7f-b803-9c27-edca-5d2805e1adfa";
+  hp:age "0"^^xsd:long .
+
+neoind:69193 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/5c93ac87-a159-bdf6-7b72-963b3e9742e0";
+  hp:hpIdn "CAN1139693";
+  hp:identifier "5c93ac87-a159-bdf6-7b72-963b3e9742e0";
+  hp:edbId "108792"^^xsd:long;
+  hp:name "Binod Bihari Das";
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:age "0"^^xsd:long .
+
+neoind:69194 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:edbId "108793"^^xsd:long;
+  hp:identifier "a025731f-c017-e320-c3a9-a58a6f3a817a";
+  hp:name "Yagnyanarayan Singha";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/a025731f-c017-e320-c3a9-a58a6f3a817a";
+  hp:hpIdn "CAN1139695";
+  hp:latestElectionResult "WON";
+  hp:age "0"^^xsd:long .
+
+neoind:69195 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Sibnarayan Singh";
+  hp:edbId "108794"^^xsd:long;
+  hp:identifier "98b537ae-4ed2-8cad-350c-c3eb1ba32113";
+  hp:hpIdn "CAN1139696";
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/98b537ae-4ed2-8cad-350c-c3eb1ba32113";
+  hp:latestElectionResult "LOST" .
+
+neoind:69196 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:sex "M";
+  hp:hpIdn "CAN1139699";
+  hp:name "Rajendra Kohor";
+  hp:edbId "108795"^^xsd:long;
+  hp:identifier "d5d98493-910e-d8be-7674-56b0397c37fb";
+  hp:hasCurrentPosition "EX-MP";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/d5d98493-910e-d8be-7674-56b0397c37fb";
+  hp:latestElectionResult "WON";
+  hp:age "0"^^xsd:long .
+
+neoind:69197 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/31a6d30c-47cb-1b52-f49e-e9d0a2bcda09";
+  hp:identifier "31a6d30c-47cb-1b52-f49e-e9d0a2bcda09";
+  hp:sex "M";
+  hp:edbId "108796"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:name "Naryan Sahu";
+  hp:latestElectionResult "LOST";
+  hp:hpIdn "CAN1139702" .
+
+neoind:69198 a neovoc:owl__NamedIndividual, hp:ElectionUniverse, hp:Candidate;
+  hp:name "Telu Ram S/O Punnu Ram";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139705";
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/e82191f8-3692-e415-f06a-328c5ae6028b";
+  hp:latestElectionResult "LOST";
+  hp:identifier "e82191f8-3692-e415-f06a-328c5ae6028b";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:edbId "108797"^^xsd:long .
+
+neoind:69199 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:sex "M";
+  hp:name "Devi Singh";
+  hp:age "0"^^xsd:long;
+  hp:identifier "48321976-6b4a-7e08-c6b2-8bc0ca0ae4f1";
+  hp:hpIdn "CAN1139708";
+  hp:latestElectionResult "LOST";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/48321976-6b4a-7e08-c6b2-8bc0ca0ae4f1";
+  hp:edbId "108798"^^xsd:long .
+
+neoind:69200 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:identifier "f604c04d-f2b3-3d98-c732-02c6f01dcbcf";
+  hp:edbId "108799"^^xsd:long;
+  hp:hpIdn "CAN1139711";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f604c04d-f2b3-3d98-c732-02c6f01dcbcf";
+  hp:age "0"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Abdul Ghani";
+  hp:sex "M";
+  hp:latestElectionResult "LOST" .
+
+neoind:69201 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Ghamandi Lal";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/e2a13450-e79d-6982-a736-ef40b3bbf758";
+  hp:sex "M";
+  hp:edbId "108800"^^xsd:long;
+  hp:identifier "e2a13450-e79d-6982-a736-ef40b3bbf758";
+  hp:hpIdn "CAN1139713";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST" .
+
+neoind:69202 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:latestElectionResult "LOST";
+  hp:hpIdn "CAN1139750";
+  hp:wikidataId "http://www.wikidata.org/entity/Q55183336";
+  hp:edbId "108801"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f42bd8d1-9d4a-4f94-e9a4-c358b9da4cda";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Kulbir_Singh_Zira";
+  hp:name "Kulbir Singh";
+  hp:identifier "f42bd8d1-9d4a-4f94-e9a4-c358b9da4cda";
+  hp:sex "M";
+  hp:age "0"^^xsd:long .
+
+neoind:69203 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:latestElectionResult "LOST";
+  hp:name "Rattan Singh";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/4d58a0de-c94a-641c-f7a5-7ab4786ba2dc";
+  hp:hpIdn "CAN1139714";
+  hp:edbId "108802"^^xsd:long;
+  hp:identifier "4d58a0de-c94a-641c-f7a5-7ab4786ba2dc";
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT" .
+
+neoind:69204 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:identifier "15717f86-a7ce-1d89-48e2-3c5fe8b2b493";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108803"^^xsd:long;
+  hp:hpIdn "CAN1139717";
+  hp:name "Balkar Singh";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/15717f86-a7ce-1d89-48e2-3c5fe8b2b493";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT" .
+
+neoind:69205 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:hpIdn "CAN1139719";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108804"^^xsd:long;
+  hp:identifier "ab6dc0db-3aa3-9725-1fe9-716469af1e08";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/ab6dc0db-3aa3-9725-1fe9-716469af1e08";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Virender" .
+
+neoind:69206 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:edbId "108805"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/2d8d30c9-3828-6d14-766d-750b010e562f";
+  hp:identifier "2d8d30c9-3828-6d14-766d-750b010e562f";
+  hp:name "Prem Nath";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139720";
+  hp:latestElectionResult "LOST";
+  hp:sex "M" .
+
+neoind:69207 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:edbId "108806"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/1e1eade3-c232-36ac-5e52-78ce08c5d376";
+  hp:name "Banwari Ram";
+  hp:latestElectionResult "LOST";
+  hp:identifier "1e1eade3-c232-36ac-5e52-78ce08c5d376";
+  hp:hpIdn "CAN1139721";
+  hp:sex "M" .
+
+neoind:69208 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:identifier "31eb1adf-816d-7db1-370c-a8a15de2fd8e";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:hpIdn "CAN1139761";
+  hp:name "Ratan Lal";
+  hp:edbId "108807"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/31eb1adf-816d-7db1-370c-a8a15de2fd8e";
+  hp:sex "M" .
+
+neoind:69209 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:identifier "bc1b3f79-7de4-7432-d7fc-8d30eb94079a";
+  hp:hpIdn "CAN1139722";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/bc1b3f79-7de4-7432-d7fc-8d30eb94079a";
+  hp:name "Lal Chand";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108808"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M" .
+
+neoind:69210 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:latestElectionResult "WON";
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:identifier "80d3b1d6-4a5a-f7b5-9158-5d9c7e3eab40";
+  hp:hasCurrentPosition "EX-MP";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/80d3b1d6-4a5a-f7b5-9158-5d9c7e3eab40";
+  hp:edbId "108809"^^xsd:long;
+  hp:name "Dev Dutt";
+  hp:hpIdn "CAN1139723" .
+
+neoind:69211 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:edbId "108810"^^xsd:long;
+  hp:wikidataId "http://www.wikidata.org/entity/Q15724882";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:name "Baishnab Charan Patnaik";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/e5a605fb-c031-c1a9-76ea-a78c8d605769";
+  hp:hpIdn "CAN1139683";
+  hp:identifier "e5a605fb-c031-c1a9-76ea-a78c8d605769";
+  hp:latestElectionResult "WON";
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Baishnab_Charan_Patnaik" .
+
+neoind:69212 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:hpIdn "CAN1139764";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/ded622d0-81e5-a757-3f47-8b497e3e1862";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108811"^^xsd:long;
+  hp:identifier "ded622d0-81e5-a757-3f47-8b497e3e1862";
+  hp:latestElectionResult "LOST";
+  hp:name "Randhir Sen";
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT" .
+
+neoind:69213 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:identifier "69ec07f6-f2d3-8528-5148-c6fce9b31936";
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108812"^^xsd:long;
+  hp:name "Inder Singh";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/69ec07f6-f2d3-8528-5148-c6fce9b31936";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:hpIdn "CAN1139724" .
+
+neoind:69214 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139686";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/52e16db7-e5d9-21cf-fa7c-142343eb1fc4";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108813"^^xsd:long;
+  hp:sex "M";
+  hp:name "Suresh Chandra Behera";
+  hp:identifier "52e16db7-e5d9-21cf-fa7c-142343eb1fc4";
+  hp:hasCurrentPosition "CONTESTANT" .
+
+neoind:69215 a hp:Candidate;
+  hp:latestElectionResult "LOST";
+  hp:edbId "108814"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:identifier "fc751f3e-3c4f-d3ca-babd-41dfe1db23a4";
+  a neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:hpIdn "CAN1139726";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/fc751f3e-3c4f-d3ca-babd-41dfe1db23a4";
+  hp:name "Ser Singh";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M" .
+
+neoind:69216 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:name "Kapur Singh";
+  hp:edbId "108815"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/2896fb6d-9e5b-6461-6d2f-184f6e4b72b6";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "WON";
+  hp:identifier "2896fb6d-9e5b-6461-6d2f-184f6e4b72b6";
+  hp:hpIdn "CAN1139765";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M" .
+
+neoind:69217 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:edbId "108816"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:identifier "ef956176-2bda-dbd8-7d59-de71ec8d0209";
+  hp:name "Rajballabh Mishra";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139689";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/ef956176-2bda-dbd8-7d59-de71ec8d0209";
+  hp:sex "M" .
+
+neoind:69218 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:edbId "108817"^^xsd:long;
+  hp:hpIdn "CAN1139729";
+  hp:name "Lehri Singh";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/3836a41d-b592-24ad-a18d-da1d42b2dc68";
+  hp:age "0"^^xsd:long;
+  hp:identifier "3836a41d-b592-24ad-a18d-da1d42b2dc68";
+  hp:latestElectionResult "WON";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M" .
+
+neoind:69219 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:hpIdn "CAN1139697";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/9fa91d71-1bfe-4cf4-4c79-3cb40659e10f";
+  hp:identifier "9fa91d71-1bfe-4cf4-4c79-3cb40659e10f";
+  hp:name "Oram Silas";
+  hp:edbId "108818"^^xsd:long .
+
+neoind:69220 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:sex "M";
+  hp:identifier "ca98035d-745c-c31c-fa5a-572b5a565ab8";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:edbId "108819"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/ca98035d-745c-c31c-fa5a-572b5a565ab8";
+  hp:name "Udham Singh";
+  hp:hpIdn "CAN1139732";
+  hp:hasCurrentPosition "CONTESTANT" .
+
+neoind:69221 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:name "Mangal Singh";
+  hp:identifier "3c3e2365-6e7a-5124-7c6e-4f757832f0a8";
+  hp:edbId "108820"^^xsd:long;
+  hp:hpIdn "CAN1139766";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/3c3e2365-6e7a-5124-7c6e-4f757832f0a8";
+  hp:hasCurrentPosition "CONTESTANT" .
+
+neoind:69222 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/9548f980-17b1-61dc-ad93-62830e38e85b";
+  hp:edbId "108821"^^xsd:long;
+  hp:identifier "9548f980-17b1-61dc-ad93-62830e38e85b";
+  hp:latestElectionResult "LOST";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Kesar Singh";
+  hp:hpIdn "CAN1139733";
+  hp:sex "M" .
+
+neoind:69223 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:edbId "108822"^^xsd:long;
+  hp:latestElectionResult "WON";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139735";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/17fc04b6-a60e-9eb0-b75d-96a70f253dcd";
+  hp:name "Yudhvir Singh";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:identifier "17fc04b6-a60e-9eb0-b75d-96a70f253dcd" .
+
+neoind:69224 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:edbId "108823"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139739";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/d2a80f85-6145-ec0b-38da-5b356c42cfb0";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Rattan Singh";
+  hp:identifier "d2a80f85-6145-ec0b-38da-5b356c42cfb0";
+  hp:sex "M" .
+
+neoind:69225 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139742";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/3d4bde4a-56e0-3ca9-b04c-d06905937fc7";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108824"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Manohar Lal";
+  hp:identifier "3d4bde4a-56e0-3ca9-b04c-d06905937fc7";
+  hp:sex "M" .
+
+neoind:69226 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:latestElectionResult "LOST";
+  hp:name "Narinder Singh";
+  hp:identifier "580fe8d0-539b-ea6a-97c3-eae9f4b2145d";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:edbId "108825"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/580fe8d0-539b-ea6a-97c3-eae9f4b2145d";
+  hp:hpIdn "CAN1139744" .
+
+neoind:69227 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:latestElectionResult "LOST";
+  hp:identifier "89e24ede-b364-5e73-8b8f-74364b12945b";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139747";
+  hp:sex "M";
+  hp:name "Ram Nath Kalia";
+  hp:edbId "108826"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/89e24ede-b364-5e73-8b8f-74364b12945b" .
+
+neoind:69228 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:identifier "46f37bf1-e404-c73d-286b-6b3045a5f2e3";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/46f37bf1-e404-c73d-286b-6b3045a5f2e3";
+  hp:edbId "108827"^^xsd:long;
+  hp:name "Parshotam Lal";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139775";
+  hp:sex "M" .
+
+neoind:69229 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:edbId "108828"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:latestElectionResult "LOST";
+  hp:hpIdn "CAN1139758";
+  hp:name "Ambedkar Yashwant Rao";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/c57ecf58-7e60-714f-8ca4-ab8904a21717";
+  hp:age "0"^^xsd:long;
+  hp:identifier "c57ecf58-7e60-714f-8ca4-ab8904a21717";
+  hp:sex "M" .
+
+neoind:69230 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:edbId "108829"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:name "Parkash Singh";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/5ba01863-ad7e-8725-ad16-a48c4a69679c";
+  hp:identifier "5ba01863-ad7e-8725-ad16-a48c4a69679c";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139776" .
+
+neoind:69231 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:identifier "2e3aa37b-a517-f341-a58e-7060bf0630d2";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139760";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/2e3aa37b-a517-f341-a58e-7060bf0630d2";
+  hp:edbId "108830"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:sex "M";
+  hp:name "Ajit Singh" .
+
+neoind:69232 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/5cd3de21-27d2-6fc2-8bd3-e813f5073fc1";
+  hp:hpIdn "CAN1139762";
+  hp:latestElectionResult "LOST";
+  hp:name "Kartar Singh";
+  hp:edbId "108831"^^xsd:long;
+  hp:identifier "5cd3de21-27d2-6fc2-8bd3-e813f5073fc1";
+  hp:sex "M" .
+
+neoind:69233 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:edbId "108832"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/159feae0-9075-b1e9-c4f8-e8cf37e260c6";
+  hp:age "0"^^xsd:long;
+  hp:identifier "159feae0-9075-b1e9-c4f8-e8cf37e260c6";
+  hp:latestElectionResult "LOST";
+  hp:name "Dalip Singh";
+  hp:hpIdn "CAN1139777";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M" .
+
+neoind:69234 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:edbId "108833"^^xsd:long;
+  hp:wikidataId "http://www.wikidata.org/entity/nan";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f7804465-4950-ad0a-5a36-2fe50d0c4d4b";
+  hp:sex "M";
+  hp:name "Ravi Nanda";
+  hp:age "0"^^xsd:long;
+  hp:identifier "f7804465-4950-ad0a-5a36-2fe50d0c4d4b";
+  hp:latestElectionResult "LOST";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139763";
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Ravindra_Nanda" .
+
+neoind:69235 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:hpIdn "CAN1139778";
+  hp:name "Jagdev Singh";
+  hp:latestElectionResult "WON";
+  hp:edbId "108834"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/ceb15ea1-f187-bd0c-bb37-613756345c92";
+  hp:identifier "ceb15ea1-f187-bd0c-bb37-613756345c92";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M" .
+
+neoind:69236 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:identifier "9e14375f-91eb-9c2d-1843-7e8be9b4b207";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108835"^^xsd:long;
+  hp:hpIdn "CAN1139768";
+  hp:age "0"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Bhagwan Sarup";
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/9e14375f-91eb-9c2d-1843-7e8be9b4b207" .
+
+neoind:69237 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:identifier "b2e965ce-7eb9-2013-20d2-4fa6a2ecdd2c";
+  hp:name "Partap Singh Daulata";
+  hp:hpIdn "CAN1139779";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:edbId "108836"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/b2e965ce-7eb9-2013-20d2-4fa6a2ecdd2c" .
+
+neoind:69238 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:hasCurrentPosition "EX-MP";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/e8da8fcf-fba0-e453-e7cb-e5069f0c6c6c";
+  hp:name "Hukum Singh";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:edbId "108837"^^xsd:long;
+  hp:latestElectionResult "WON";
+  hp:identifier "e8da8fcf-fba0-e453-e7cb-e5069f0c6c6c";
+  hp:hpIdn "CAN1139771" .
+
+neoind:69239 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:identifier "a1a0e6c7-e2ce-92a8-ac0e-742a182b5160";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/a1a0e6c7-e2ce-92a8-ac0e-742a182b5160";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Sheodan Singh";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:edbId "108838"^^xsd:long;
+  hp:hpIdn "CAN1139780" .
+
+neoind:69240 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/62a8194a-75a3-6a46-cb7c-bef30ebdb09d";
+  hp:identifier "62a8194a-75a3-6a46-cb7c-bef30ebdb09d";
+  hp:hpIdn "CAN1139781";
+  hp:edbId "108839"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:name "Rampat Village Ismaila";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M" .
+
+neoind:69241 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:latestElectionResult "LOST";
+  hp:hpIdn "CAN1139782";
+  hp:identifier "5c4b184b-b7be-ab24-25fb-c8c73eab153e";
+  hp:age "0"^^xsd:long;
+  hp:name "Jagan Nath";
+  hp:edbId "108840"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/5c4b184b-b7be-ab24-25fb-c8c73eab153e";
+  hp:sex "M" .
+
+neoind:69242 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/b42a0231-6031-6b89-5c19-3c2b618fd842";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108841"^^xsd:long;
+  hp:identifier "b42a0231-6031-6b89-5c19-3c2b618fd842";
+  hp:sex "M";
+  hp:hpIdn "CAN1139783";
+  hp:name "Duli Chand" .
+
+neoind:69243 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long;
+  hp:identifier "db06891f-383e-f078-c364-5b18aba92b85";
+  hp:name "Taqdir Singh";
+  hp:edbId "108842"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/db06891f-383e-f078-c364-5b18aba92b85";
+  hp:hpIdn "CAN1139784";
+  hp:sex "M" .
+
+neoind:69244 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:identifier "76c4a78f-2e15-f936-9523-25984ce12f0d";
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:edbId "108843"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/76c4a78f-2e15-f936-9523-25984ce12f0d";
+  hp:hpIdn "CAN1139785";
+  hp:name "Ram Pat Village Kapriwas" .
+
+neoind:69245 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:edbId "108844"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:identifier "ef9ba27e-3a19-836f-369b-1ae8524d03f4";
+  hp:name "V N Kaushik";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/ef9ba27e-3a19-836f-369b-1ae8524d03f4";
+  hp:hpIdn "CAN1139786" .
+
+neoind:69246 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:edbId "108845"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:hpIdn "CAN1139787";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Lahori Ram Balley";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/def4c1f0-17a8-d67f-2cac-d79ada9e8c79";
+  hp:identifier "def4c1f0-17a8-d67f-2cac-d79ada9e8c79" .
+
+neoind:69247 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:age "0"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:latestElectionResult "LOST";
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Achhar_Singh_Chhina";
+  hp:name "Achhar Singh";
+  hp:hpIdn "CAN1139790";
+  hp:identifier "101d69dc-6ca0-a26e-723c-63f36345bab1";
+  hp:wikidataId "http://www.wikidata.org/entity/nan";
+  hp:edbId "108846"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/101d69dc-6ca0-a26e-723c-63f36345bab1";
+  hp:sex "M" .
+
+neoind:69248 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f1fb316c-f7ab-406b-a857-5346d38519be";
+  hp:identifier "f1fb316c-f7ab-406b-a857-5346d38519be";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:name "Chanan Singh";
+  hp:hpIdn "CAN1139791";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:edbId "108847"^^xsd:long;
+  hp:sex "M" .
+
+neoind:69249 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139796";
+  hp:age "0"^^xsd:long;
+  hp:name "Sobhagmal";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108848"^^xsd:long;
+  hp:identifier "6829bec2-7201-502a-523d-96208c082938";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/6829bec2-7201-502a-523d-96208c082938" .
+
+neoind:69250 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:latestElectionResult "LOST";
+  hp:identifier "26d531d4-9ea5-cfb7-3ece-c0db5c32c092";
+  hp:age "0"^^xsd:long;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Bhagwat Guru";
+  hp:edbId "108849"^^xsd:long;
+  hp:hpIdn "CAN1139794";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/26d531d4-9ea5-cfb7-3ece-c0db5c32c092";
+  hp:sex "M" .
+
+neoind:69251 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:edbId "108850"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:name "Nathu Singh";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/23062e7f-abe9-bcff-e3d2-d9ebcdab68c4";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139797";
+  hp:identifier "23062e7f-abe9-bcff-e3d2-d9ebcdab68c4" .
+
+neoind:69252 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:latestElectionResult "LOST";
+  hp:edbId "108851"^^xsd:long;
+  hp:name "Kanmal";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/3e893d70-b95e-5eac-f63f-e36ea2036d30";
+  hp:sex "M";
+  hp:identifier "3e893d70-b95e-5eac-f63f-e36ea2036d30";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139798" .
+
+neoind:69253 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139800";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/17d5b264-c947-d128-fd42-1485ac0fcd26";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108852"^^xsd:long;
+  hp:identifier "17d5b264-c947-d128-fd42-1485ac0fcd26";
+  hp:name "Kashi Ram";
+  hp:latestElectionResult "WON";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M" .
+
+neoind:69254 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:name "Syed Fazal Haque";
+  hp:hpIdn "CAN1139682";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/45a2b2be-dc02-8653-7061-7c37fde54d05";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108853"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:identifier "45a2b2be-dc02-8653-7061-7c37fde54d05";
+  hp:sex "M" .
+
+neoind:69255 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:sex "M";
+  hp:name "Lakshmidhar Jena";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108854"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f320e0c3-3974-8725-2095-986890d0a808";
+  hp:identifier "f320e0c3-3974-8725-2095-986890d0a808";
+  hp:hpIdn "CAN1139685" .
+
+neoind:69256 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139803";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/969787f1-b063-da18-8d9c-d5d2b953fda0";
+  hp:identifier "969787f1-b063-da18-8d9c-d5d2b953fda0";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108855"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:name "Kamla";
+  hp:sex "F" .
+
+neoind:69257 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139802";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108856"^^xsd:long;
+  hp:sex "M";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/6b529838-9fae-a638-c203-8cb531202382";
+  hp:latestElectionResult "LOST";
+  hp:name "Chhaju Ram";
+  hp:identifier "6b529838-9fae-a638-c203-8cb531202382" .
+
+neoind:69258 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:latestElectionResult "WON";
+  hp:edbId "108857"^^xsd:long;
+  hp:sex "M";
+  hp:age "0"^^xsd:long;
+  hp:hpIdn "CAN1139688";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/302c08b5-836b-172f-b73e-84857ca4ba41";
+  hp:identifier "302c08b5-836b-172f-b73e-84857ca4ba41";
+  hp:hasCurrentPosition "EX-MP";
+  hp:name "Laxmi Narayan Bhanja Deo" .
+
+neoind:69259 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:latestElectionResult "LOST";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/582ecc09-47a7-4061-e36d-c454e1a0adc0";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139804";
+  hp:edbId "108858"^^xsd:long;
+  hp:name "Shanti Lal";
+  hp:identifier "582ecc09-47a7-4061-e36d-c454e1a0adc0" .
+
+neoind:69260 a neovoc:owl__NamedIndividual, hp:Candidate, hp:ElectionUniverse;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/72f3de41-92ac-81ba-b61a-4f1d2b891d84";
+  hp:identifier "72f3de41-92ac-81ba-b61a-4f1d2b891d84";
+  hp:latestElectionResult "WON";
+  hp:hpIdn "CAN1139805";
+  hp:age "0"^^xsd:long;
+  hp:edbId "108859"^^xsd:long;
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:name "Ratan Lal" .
+
+neoind:69261 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:latestElectionResult "LOST";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/8a3d891a-3e1e-350a-615b-a1c6a06e6934";
+  hp:hpIdn "CAN1139808";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Haqiqat Ullah Khan";
+  hp:edbId "108860"^^xsd:long;
+  hp:identifier "8a3d891a-3e1e-350a-615b-a1c6a06e6934";
+  hp:sex "M" .
+
+neoind:69262 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:hasCurrentPosition "EX-MP";
+  hp:wikidataId "http://www.wikidata.org/entity/nan";
+  hp:edbId "108861"^^xsd:long;
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Harekrushna_Mahatab";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/84f1aba4-67b4-3128-a495-6badec075d8a";
+  hp:identifier "84f1aba4-67b4-3128-a495-6badec075d8a";
+  hp:hpIdn "CAN1139698";
+  hp:latestElectionResult "WON";
+  hp:age "0"^^xsd:long;
+  hp:name "Harekrushna Mahtab";
+  hp:sex "M" .
+
+neoind:69263 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
+  hp:edbId "108862"^^xsd:long;
+  hp:identifier "a5f637db-4c8c-a436-ec68-c8b4253b3ef5";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:hpIdn "CAN1139692";
+  hp:name "Nutakki Ramaseshaiah";
+  hp:age "0"^^xsd:long;
+  hp:latestElectionResult "LOST";
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/a5f637db-4c8c-a436-ec68-c8b4253b3ef5";
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Nutakki_Ramaseshaiah";
+  hp:wikidataId "http://www.wikidata.org/entity/Q7070411" .
+
+neoind:69264 a hp:ElectionUniverse, hp:Candidate, neovoc:owl__NamedIndividual;
+  hp:latestElectionResult "LOST";
+  hp:edbId "108863"^^xsd:long;
+  hp:hpIdn "CAN1139700";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:name "Krushna Chandra Dolobehera";
+  hp:identifier "6f37f720-92b3-38cb-4fa7-682a71abf017";
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/6f37f720-92b3-38cb-4fa7-682a71abf017" .
+
+neoind:69265 a hp:Candidate, hp:ElectionUniverse, neovoc:owl__NamedIndividual;
+  hp:hpIdn "CAN1139806";
+  hp:hasCurrentPosition "CONTESTANT";
+  hp:identifier "f9f198c7-cb36-5b2f-9683-2f817b91f10a";
+  hp:latestElectionResult "LOST";
+  hp:edbId "108864"^^xsd:long;
+  hp:age "0"^^xsd:long;
+  hp:sex "M";
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/f9f198c7-cb36-5b2f-9683-2f817b91f10a";
+  hp:name "Mogjibhai" .
+
+neoind:69266 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:identifier "c413ba14-de73-93f6-cabc-943cf78e4f3c";
+  hp:hasCurrentPosition "EX-MP";
+  hp:sex "M";
+  hp:hpIdn "CAN1139703";
+  hp:latestElectionResult "WON";
+  hp:edbId "108865"^^xsd:long;
+  hp:name "Chuni Lal";
+  hp:age "0"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/c413ba14-de73-93f6-cabc-943cf78e4f3c" .
