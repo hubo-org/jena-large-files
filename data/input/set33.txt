@@ -25,7 +25,7 @@
 
 
 
-neoind:80267 a neovoc:owl__NamedIndividual, hp:ElectionUniverse,p:PoliticalDonor;
+neoind:80267 a neovoc:owl__NamedIndividual, hp:ElectionUniverse,hp:PoliticalDonor;
   hp:uri "urn:absolute://harbourpolitica/ontology/PoliticalDonor/0ce38b31-2d79-4c3c-8c91-ef3efeacfdc3";
   hp:edbId "7439"^^xsd:long;
   hp:name "General Electoral Trust";
