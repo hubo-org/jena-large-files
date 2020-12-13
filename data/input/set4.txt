@@ -3,7 +3,6 @@
 @prefix neoind: <neo4j://individuals#> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ns1: <dbo> .
 @prefix hp: <urn:absolute://harbourpolitica/ontology/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11020,30 +11019,6 @@ neoind:58162 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
   hp:age "0"^^xsd:long;
   hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/40897fb7-e4ed-872b-c498-1e6964754345";
   hp:hasCurrentPosition "CONTESTANT" .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix neovoc: <neo4j://vocabulary#> .
-@prefix neoind: <neo4j://individuals#> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ns1: <dbo> .
-@prefix hp: <urn:absolute://harbourpolitica/ontology/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix hps: <urn:absolute://harbourpolitica/ontology/StoryUniverse/> .
-@prefix cert: <http://www.w3.org/ns/auth/cert#> .
-@prefix wgs84pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix d0: <http://www.ontologydesignpatterns.org/ont/d0.owl#> .
-@prefix dbo: <http://dbpedia.org/ontology/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix wikidata: <http://www.wikidata.org/entity/> .
-@prefix cidoccrm: <http://purl.org/NET/cidoc-crm/core#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-
 
 neoind:58163 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
   hp:identifier "8098f5e0-b58a-63df-fbe2-fc4292e4f965";

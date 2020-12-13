@@ -3,7 +3,6 @@
 @prefix neoind: <neo4j://individuals#> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ns1: <dbo> .
 @prefix hp: <urn:absolute://harbourpolitica/ontology/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
