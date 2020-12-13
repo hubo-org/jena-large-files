@@ -23,6 +23,23 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 
+neoind:73 a hp:ElectionUniverse, neovoc:owl__NamedIndividual, hp:Candidate;
+  hp:wikipediaUrl "https://en.wikipedia.org/wiki/Sharad_Pawar";
+  neovoc:careOf "Late Govindrao Pawar";
+  hp:latestElectionResult "WON";
+  hp:hasAssets2009 "87238434"^^xsd:long;
+  hp:uri "urn:absolute://harbourpolitica/ontology/Candidate/b2700627-6313-4189-81b4-c572a37dfec0";
+  neovoc:education " Secondary School Certificate (SSC) in 1958 from Maharashtra State Board, Maharashtra Education Society High School, Baramati, Dist. Pune.";
+  hp:hpIdn "CAN1012997";
+  hp:edbId "77"^^xsd:long;
+  hp:hasCriminalcases2009 "0"^^xsd:long;
+  hp:wikidataId "http://www.wikidata.org/entity/Q982813";
+  hp:identifier "b2700627-6313-4189-81b4-c572a37dfec0";
+  hp:name "Pawar Sharadchandra Govindrao";
+  hp:age "73"^^xsd:long;
+  hp:hasLiabilities2009 "0"^^xsd:long;
+  hp:sex "M";
+  hp:hasCurrentPosition "MP(RS)" .
 
 neoind:1945 a hp:Candidate, neovoc:owl__NamedIndividual, hp:ElectionUniverse;
   hp:hasCurrentPosition "CONTESTANT";
